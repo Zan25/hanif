@@ -9,6 +9,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\PsychController;
 use App\Http\Controllers\SymptomController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserProfileController;
 
 
 // Landing Page
@@ -47,3 +48,6 @@ Route::get('/psyci', [PsyciController::class, 'psyci'])->name('views.psyci');
 
 // Psychiatrist profile page
 Route::get('/psych', [PsychController::class, 'index'])->name('views.psych');
+
+// User Profile Page
+Route::get('/user-profile', [UserProfileController::class, 'index'])->name('user.profile');
