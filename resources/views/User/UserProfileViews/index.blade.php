@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-
+  <!-- 80% -->
   {{-- HEADER --}}
   <header>
     <a href="{{ route('views.Homepage') }}">

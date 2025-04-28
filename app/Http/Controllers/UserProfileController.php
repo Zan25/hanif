@@ -12,7 +12,7 @@ class UserProfileController extends Controller
      */
     public function index()
     {
-        return view('user.UserProfileViews.index');
+        return view('user.UserProfileViews.index'); // ini liat view
     }
 
     /**
